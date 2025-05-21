@@ -1,0 +1,6 @@
+# Deepseek AI API 配置
+api:
+  endpoint: "https://api.deepseek.com/chat/completions"
+  key: "your-api-key-here"
+  timeout: 5000 # 超时时间(毫秒)
+  model: "deepseek-chat" # 可自定义的模型名称

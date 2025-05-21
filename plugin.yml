@@ -1,0 +1,11 @@
+name: DeepseekInMinecraft
+main: com.deepseek.minecraft.DeepseekPlugin
+version: 1.0
+author: YourName
+api-version: 1.21
+commands:
+  ds:
+    description: Chat with Deepseek AI
+    usage: /ds <message>
+    permission: deepseek.use
+    permission-message: You don't have permission to use this command!
